@@ -5,6 +5,7 @@
 Open the command panel
 
 Windows/Linux: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
+
 Mac: <kbd>⌘ Command</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 
 Run the following command:

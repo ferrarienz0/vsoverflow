@@ -7,7 +7,7 @@
     "url": "https://github.com/ferrarienz0/vsoverflow"
   },
   "description": "Quicksearch on Stack Overflow through VS Code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.52.0"
   },
