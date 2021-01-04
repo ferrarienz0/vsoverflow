@@ -47,7 +47,10 @@ export function activate(context: vscode.ExtensionContext) {
       const panel = vscode.window.createWebviewPanel(
         "vsoverflow",
         "VSOverflow",
-        vscode.ViewColumn.Two
+        vscode.ViewColumn.Two,
+        {
+          enableScripts: true,
+        }
       );
 
       const pageHTML = await getPageHTML(optionsItems[index].link);
