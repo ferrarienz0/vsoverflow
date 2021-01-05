@@ -14,6 +14,13 @@ Run the following command:
 vsoverflow.searchQuestion
 ```
 
+Choose the command that corresponds with the language you want to search!
+
+- Portuguese
+- English
+- Spanish
+- Russian
+
 Type the question and hit <kbd>Enter</kbd>
 
 The results are something like this:

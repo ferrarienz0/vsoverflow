@@ -1,12 +1,12 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-export default interface IStackResponse {
+export interface IStackResponse {
   items: Item[];
   has_more: boolean;
   quota_max: number;
   quota_remaining: number;
 }
 
-interface Item {
+export interface Item {
   tags: string[];
   owner: Owner;
   is_answered: boolean;
@@ -25,7 +25,7 @@ interface Item {
   closed_reason?: string;
 }
 
-interface Owner {
+export interface Owner {
   reputation: number;
   user_id: number;
   user_type: string;

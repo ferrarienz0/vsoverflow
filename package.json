@@ -7,7 +7,7 @@
     "url": "https://github.com/ferrarienz0/vsoverflow"
   },
   "description": "Quick search on Stack Overflow through VS Code",
-  "version": "1.0.2",
+  "version": "1.2.0",
   "engines": {
     "vscode": "^1.52.0"
   },
@@ -16,7 +16,10 @@
   ],
   "icon": "assets/icon.png",
   "activationEvents": [
-    "onCommand:vsoverflow.searchQuestion"
+    "onCommand:vsoverflow.searchQuestion",
+    "onCommand:vsoverflow.searchQuestionPT",
+    "onCommand:vsoverflow.searchQuestionES",
+    "onCommand:vsoverflow.searchQuestionRU"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -24,7 +27,22 @@
       {
         "command": "vsoverflow.searchQuestion",
         "category": "VS Overflow",
-        "title": "Search questions on Stack Overflow"
+        "title": "Search questions on Stack Overflow (English)"
+      },
+      {
+        "command": "vsoverflow.searchQuestionPT",
+        "category": "VS Overflow",
+        "title": "Search questions on Stack Overflow (Portuguese)"
+      },
+      {
+        "command": "vsoverflow.searchQuestionRU",
+        "category": "VS Overflow",
+        "title": "Search questions on Stack Overflow (Russian)"
+      },
+      {
+        "command": "vsoverflow.searchQuestionES",
+        "category": "VS Overflow",
+        "title": "Search questions on Stack Overflow (Spanish)"
       }
     ]
   },
