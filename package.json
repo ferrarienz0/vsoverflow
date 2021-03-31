@@ -7,7 +7,7 @@
     "url": "https://github.com/ferrarienz0/vsoverflow"
   },
   "description": "Quick search on Stack Overflow through VS Code",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "vscode": "^1.52.0"
   },
@@ -56,6 +56,7 @@
   },
   "devDependencies": {
     "@types/glob": "^7.1.3",
+    "@types/html-escaper": "^3.0.0",
     "@types/mocha": "^8.0.4",
     "@types/node": "^12.11.7",
     "@types/vscode": "^1.52.0",
@@ -68,6 +69,7 @@
     "vscode-test": "^1.4.1"
   },
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "html-escaper": "^3.0.3"
   }
 }
