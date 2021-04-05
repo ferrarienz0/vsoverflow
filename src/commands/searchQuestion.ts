@@ -1,5 +1,5 @@
 import * as vscode from "vscode";
-import { unescape } from "html-escaper";
+import { decode } from "html-entities";
 
 import {
   getQuestionPageHTML,
@@ -40,7 +40,7 @@ async function baseSearchCommand(language: Language = "en") {
   }
 
   const questionHeaders = questions.map((question) => {
-    return unescape(`Votes [${question.score}]: ${question.title}`);
+    return decode(`Votes [${question.score}]: ${question.title}`);
   });
 
   const quickPick = await vscode.window.showQuickPick(questionHeaders);
